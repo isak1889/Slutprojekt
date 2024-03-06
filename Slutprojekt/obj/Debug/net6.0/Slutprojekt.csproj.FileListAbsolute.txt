@@ -1,0 +1,15 @@
+c:\Users\isak.eriksson4\proggramering\Slutprojekt\Slutprojekt\bin\Debug\net6.0\Slutprojekt.exe
+c:\Users\isak.eriksson4\proggramering\Slutprojekt\Slutprojekt\bin\Debug\net6.0\Slutprojekt.deps.json
+c:\Users\isak.eriksson4\proggramering\Slutprojekt\Slutprojekt\bin\Debug\net6.0\Slutprojekt.runtimeconfig.json
+c:\Users\isak.eriksson4\proggramering\Slutprojekt\Slutprojekt\bin\Debug\net6.0\Slutprojekt.dll
+c:\Users\isak.eriksson4\proggramering\Slutprojekt\Slutprojekt\bin\Debug\net6.0\Slutprojekt.pdb
+c:\Users\isak.eriksson4\proggramering\Slutprojekt\Slutprojekt\obj\Debug\net6.0\Slutprojekt.csproj.AssemblyReference.cache
+c:\Users\isak.eriksson4\proggramering\Slutprojekt\Slutprojekt\obj\Debug\net6.0\Slutprojekt.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\isak.eriksson4\proggramering\Slutprojekt\Slutprojekt\obj\Debug\net6.0\Slutprojekt.AssemblyInfoInputs.cache
+c:\Users\isak.eriksson4\proggramering\Slutprojekt\Slutprojekt\obj\Debug\net6.0\Slutprojekt.AssemblyInfo.cs
+c:\Users\isak.eriksson4\proggramering\Slutprojekt\Slutprojekt\obj\Debug\net6.0\Slutprojekt.csproj.CoreCompileInputs.cache
+c:\Users\isak.eriksson4\proggramering\Slutprojekt\Slutprojekt\obj\Debug\net6.0\Slutprojekt.dll
+c:\Users\isak.eriksson4\proggramering\Slutprojekt\Slutprojekt\obj\Debug\net6.0\refint\Slutprojekt.dll
+c:\Users\isak.eriksson4\proggramering\Slutprojekt\Slutprojekt\obj\Debug\net6.0\Slutprojekt.pdb
+c:\Users\isak.eriksson4\proggramering\Slutprojekt\Slutprojekt\obj\Debug\net6.0\Slutprojekt.genruntimeconfig.cache
+c:\Users\isak.eriksson4\proggramering\Slutprojekt\Slutprojekt\obj\Debug\net6.0\ref\Slutprojekt.dll
