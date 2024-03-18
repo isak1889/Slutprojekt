@@ -1,15 +1,26 @@
 ﻿using System;
+using System.Collections.Generic;
 
-List <string> länder = new(){"Tyskland", "Belgien", "Nederländerna", "Schweiz", "Albanien"};
-List <string> huvudstäder = new(){"Berlin", "Bryssel", "Amsterdam", "Bern", "Tirana"};
-List <string> valuta = new(){"Euro", "Euro", "Euro", "Franc", "Lek"};
-int i = Random.Shared.Next(4);
-Console.WriteLine(länder [i]);
-//string choice1 = Console.ReadLine().ToLower();
+class GeografiQuiz 
+{
 
-Console.WriteLine($"Vad är huvudstaden i {länder[i]}?");
-Console.WriteLine($"{huvudstäder[i]}");
-Console.WriteLine($"Vilken valuta används i {länder[i]}");
-Console.WriteLine($"{valuta[i]}");
+    static List <string> länder = new(){"Tyskland", "Belgien", "Nederländerna", "Schweiz", "Albanien"};
+    static List <string> huvudstäder = new(){"Berlin", "Bryssel", "Amsterdam", "Bern", "Tirana"};
+    static List <string> valuta = new(){"Euro", "Euro", "Euro", "Franc", "Lek"};
 
-Console.ReadLine(); 
+    static void Main(string[] args)
+    {
+        int i = Random.Shared.Next(4);
+
+        Console.WriteLine($"Det slumpmässiga landet är {länder [i]}");
+        
+        Console.WriteLine($"Vad är huvudstaden i {länder[i]}?");
+        Console.ReadLine();
+        Console.WriteLine($"{huvudstäder[i]}");
+        Console.WriteLine($"Vilken valuta används i {länder[i]}");
+        Console.ReadLine();
+        Console.WriteLine($"{valuta[i]}");
+
+        Console.ReadLine(); 
+    }
+}
