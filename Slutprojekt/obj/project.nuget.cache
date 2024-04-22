@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yH+p8WiFxukT4t7vJkOxuKQxCL84n+3XNLSM8VE6D/S/pS6F8gATS1ZPAqYPHBZ+WP7A1Qto4g0yaMmC8vpINg==",
+  "dgSpecHash": "Uw2V6hg0lsq2/admda4QF3duQTL8NokAlrxxSPbQDWeVjo3EchgXO+/vPP+YmK9ZAq3Ub/LKmoKwaXsZMDG2Tw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\isak.eriksson4\\proggramering\\Slutprojekt\\Slutprojekt\\Slutprojekt.csproj",
+  "projectFilePath": "c:\\Users\\isak.eriksson4\\proggramering\\Slutprojekt\\Slutprojekt\\Slutprojekt.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\isak.eriksson4\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.28\\microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
     "C:\\Users\\isak.eriksson4\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.28\\microsoft.windowsdesktop.app.ref.6.0.28.nupkg.sha512",

@@ -3,7 +3,6 @@ c:\Users\isak.eriksson4\proggramering\Slutprojekt\Slutprojekt\bin\Debug\net6.0\S
 c:\Users\isak.eriksson4\proggramering\Slutprojekt\Slutprojekt\bin\Debug\net6.0\Slutprojekt.runtimeconfig.json
 c:\Users\isak.eriksson4\proggramering\Slutprojekt\Slutprojekt\bin\Debug\net6.0\Slutprojekt.dll
 c:\Users\isak.eriksson4\proggramering\Slutprojekt\Slutprojekt\bin\Debug\net6.0\Slutprojekt.pdb
-c:\Users\isak.eriksson4\proggramering\Slutprojekt\Slutprojekt\obj\Debug\net6.0\Slutprojekt.csproj.AssemblyReference.cache
 c:\Users\isak.eriksson4\proggramering\Slutprojekt\Slutprojekt\obj\Debug\net6.0\Slutprojekt.GeneratedMSBuildEditorConfig.editorconfig
 c:\Users\isak.eriksson4\proggramering\Slutprojekt\Slutprojekt\obj\Debug\net6.0\Slutprojekt.AssemblyInfoInputs.cache
 c:\Users\isak.eriksson4\proggramering\Slutprojekt\Slutprojekt\obj\Debug\net6.0\Slutprojekt.AssemblyInfo.cs

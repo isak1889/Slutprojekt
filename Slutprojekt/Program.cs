@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿
 
 
 
@@ -15,7 +14,6 @@ if (namn == "noname")
 {
     Console.WriteLine("Välkommen!");
     Console.WriteLine("Du kommer att få ett slumpässigt land som du ska gissa vilket som är landets huvudstad, vilken valuta som används och landets befolkning");
-
 }
 else
 {
@@ -25,70 +23,60 @@ else
 
 int i = Random.Shared.Next(4); //Slumpar ett land som ligger i listan
 int score = 0;
-static void KorrektSvar()
-{
-    Console.WriteLine("Korrekt!");
-    
-}
 
 Console.WriteLine($"Det slumpmässiga landet är {länder[i]}");
 Console.WriteLine($"Vad är huvudstaden i {länder[i]}?");
 for (int försök = 1; försök < 4; försök++)
-{
-    Console.WriteLine($"Vad är huvudstaden i {länder[i]}?");
+ {
+
     string huvudstadGissning = Console.ReadLine();
 
     if (huvudstadGissning.ToLower() == huvudstäder[i].ToLower())
     {
-        KorrektSvar();
+        Utils.KorrektSvar();
         score++;
-        break; // Bryt loopen om svaret är korrekt
+        //break; // Bryt loopen om svaret är korrekt
     }
     else
     {
         Console.WriteLine($"Fel! Försök igen. Försök {försök}/3");
     }
+
+
 }
-Console.WriteLine($"Vilken valuta används i {länder[i]}");
-string valutaGissning = Console.ReadLine();
-if (valutaGissning.ToLower() == valuta[i].ToLower())
+for (int försök = 1; försök < 4; försök++)
 {
-    KorrektSvar();
-    score++;
-}
-else
-{
-    while (valutaGissning != valuta[i])
+    Console.WriteLine($"Vilken valuta används i {länder[i]}");
+    string valutaGissning = Console.ReadLine();
+    if (valutaGissning.ToLower() == valuta[i].ToLower())
     {
-        Console.WriteLine("Fel!");
-        Console.ReadLine();
-        return;
+        Utils.KorrektSvar();
+        score++;
     }
-    
+    else
+    {
+        Console.WriteLine($"Fel! Försök igen. Försök {försök}/3");
+    }
+        
 }
 
 Console.WriteLine($"Vad är det mest talade språket i {länder[i]}");
-string språkGissning = Console.ReadLine();
-if (språkGissning.ToLower() == språk[i].ToLower())
+for (int försök = 1; försök < 4; försök++)
 {
-    KorrektSvar();
-    score++;
-}
-else
-{
-    while (språkGissning != språk[i])
+    string språkGissning = Console.ReadLine();
+    Console.WriteLine($"Vilken valuta används i {länder[i]}");
+    if (språkGissning.ToLower() == språk[i].ToLower())
     {
-        Console.WriteLine("Fel!");
-        Console.ReadLine();
-        return;
+        Utils.KorrektSvar();
+        score++;
     }
-    
+    else
+    {
+        Console.WriteLine($"Fel! Försök igen. Försök {försök}/3");
+    }
+        
 }
-
-
-
-
-//Console.WriteLine($"{valuta[i]}");
+Console.WriteLine($"Du fick {score} poäng");
 
 
 Console.ReadLine();
