@@ -1,6 +1,6 @@
 ﻿
 
-public class Utils
+public class Rättsvar
 {
     public static void KorrektSvar()
     {
